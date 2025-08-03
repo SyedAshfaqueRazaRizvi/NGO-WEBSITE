@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helping Hands NGO</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    .navbar {
+      background-color: #00796b;
+    }
+    .navbar-brand, .nav-link {
+      color: #fff !important;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?auto=format&fit=crop&w=1050&q=80') center/cover no-repeat;
+      padding: 120px 20px;
+      color: #fff;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    }
+    .hero p {
+      font-size: 1.2rem;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    }
+    .section-title {
+      margin-top: 60px;
+      text-align: center;
+      color: #004d40;
+    }
+    .btn-primary {
+      background-color: #009688;
+      border: none;
+    }
+    .btn-primary:hover {
+      background-color: #00796b;
+    }
+    .about-image {
+      max-width: 100%;
+      border-radius: 8px;
+      
+    }
+    .impact-section {
+      background-color: #e0f2f1;
+      padding: 40px 20px;
+      margin-top: 60px;
+    }
+    footer {
+      margin-top: 60px;
+      padding: 20px;
+      background: #004d40;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">Helping Hands</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#impact">Our Impact</a></li>
+          <li class="nav-item"><a class="nav-link" href="#volunteer">Volunteer</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Page -->
+  <header class="hero">
+    <h1>Helping Hands NGO</h1>
+    <p>Empowering communities through service and compassion.</p>
+    <a href="#volunteer" class="btn btn-primary mt-3">Become a Volunteer</a>
+  </header>
+
+  <!-- About Us Section -->
+  <section id="about" class="container mt-5">
+    <h2 class="section-title">About Us</h2>
+    <div class="row align-items-center mt-4">
+      <div class="col-md-6">
+        <p>
+          Helping Hands actively engages volunteers from diverse backgrounds to amplify our reach and impact. We strive to empower individuals through skill-building workshops and mentorship programs. Our initiatives also include health awareness campaigns to promote well-being across underserved regions. Additionally, we partner with local governments and businesses to scale our efforts and ensure long-term success.
+        </p>
+      </div>
+      <div class="col-md-6">
+       <img src="https://media.istockphoto.com/id/2153312316/photo/volunteering-group-of-people-and-tablet-for-food-donation-community-service-and-poverty.webp?a=1&b=1&s=612x612&w=0&k=20&c=3zFxVwRLXLa05ruvwsY32B-cA9R3G64ydCBUJxgDbzI=" alt="Volunteers" class="about-image" width="1000px">
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Impact Section -->
+  <section id="impact" class="impact-section text-center">
+    <div class="container">
+      <h2 class="section-title">Our Impact</h2>
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <h3>5000+</h3>
+          <p>Lives Impacted</p>
+        </div>
+        <div class="col-md-4">
+          <h3>300+</h3>
+          <p>Volunteers Engaged</p>
+        </div>
+        <div class="col-md-4">
+          <h3>50+</h3>
+          <p>Communities Served</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Volunteer Form -->
+  <section id="volunteer" class="container mt-5">
+    <h2 class="section-title">Volunteer With Us</h2>
+    <form class="mt-4 row g-3">
+      <div class="col-md-6">
+        <label for="name" class="form-label">Full Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="col-md-6">
+        <label for="email" class="form-label">Email</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="col-12">
+        <label for="message" class="form-label">Why do you want to volunteer?</label>
+        <textarea class="form-control" id="message" rows="4" required></textarea>
+      </div>
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Helping Hands NGO. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
